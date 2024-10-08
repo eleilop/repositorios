@@ -23,7 +23,7 @@
       </ion-label>
     </ion-item>
   </ion-list>
-  <div #animatedAvatarContainer class="animated-avatar-container" *ngIf="isAnimating">
+  <div #animatedAvatarContainer class="animated-avatar-container" [ngStyle]="{'display':isAnimating?'block':'none'}">
     <img #animatedAvatar [src]="selectedPerson?.picture.large" alt="Foto de {{ selectedPerson?.name.first }}">
   </div>
 </ion-content>

@@ -64,7 +64,7 @@ export class HomePage implements OnInit{
       .addElement(animatedAvatarElement)
       .duration(500)
       .easing('ease-out')
-      .fromTo('transform', 'translate(0, 0) scale(1)', `translate(${window.innerWidth / 2 - avatarRect.left - avatarRect.width / 2}px, ${window.innerHeight / 2 - avatarRect.top - avatarRect.height / 2}px) scale(2)`);
+      .fromTo('transform', 'translate(0, 0) scale(1)', `translate(${window.innerWidth / 2 - avatarRect.left - avatarRect.width / 2}px, ${window.innerHeight / 2 - avatarRect.top - avatarRect.height / 2}px) scale(5)`);
 
     // Iniciar la animación
     await animation.play();
@@ -73,7 +73,7 @@ export class HomePage implements OnInit{
     // Por ejemplo, mostrar más información, navegar a otra página, etc.
 
     // Resetear la animación después de completarla
-    this.isAnimating = false;
+    //this.isAnimating = false;
   }
 
 }
