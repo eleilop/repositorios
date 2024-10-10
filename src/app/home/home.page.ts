@@ -1,7 +1,9 @@
 import { Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { PeopleService } from '../core/services/impl/people.service';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { AnimationController } from '@ionic/angular';
+import { AnimationController, InfiniteScrollCustomEvent } from '@ionic/angular';
+import { Paginated } from '../core/models/paginated.model';
+import { Person } from '../core/models/person.model';
 
 @Component({
   selector: 'app-home',
@@ -10,20 +12,16 @@ import { AnimationController } from '@ionic/angular';
 })
 export class HomePage implements OnInit{
 
-  _people:BehaviorSubject<any[]> = new BehaviorSubject<any[]>([]);
-  people$:Observable<any[]> = this._people.asObservable();
+  _people:BehaviorSubject<Person[]> = new BehaviorSubject<Person[]>([]);
+  people$:Observable<Person[]> = this._people.asObservable();
 
   constructor(
     private animationCtrl: AnimationController,
     private peopleSv:PeopleService
   ) {}
+
   ngOnInit(): void {
-    this.peopleSv.getAll().subscribe({
-      next:(response:any)=>{
-        this._people.next(response['results'])
-        console.log(response.results);
-      }
-    });
+    this.getMorePeople();
   }
 
 
@@ -33,11 +31,18 @@ export class HomePage implements OnInit{
 
   selectedPerson: any = null;
   isAnimating = false;
+  page:number = 0;
+  pageSize:number = 25;
 
 
-  getPeople() {
-    // Implementa tu lógica para obtener la lista de personas
-    // Por ejemplo, una llamada a un servicio que devuelve un Observable
+  getMorePeople(notify:HTMLIonInfiniteScrollElement | null = null) {
+    this.peopleSv.getAll(this.page, this.pageSize).subscribe({
+      next:(response:Paginated<Person>)=>{
+        this._people.next([...this._people.value, ...response.data]);
+        this.page++;
+        notify?.complete();
+      }
+    });
   }
 
   async openPersonDetail(person: any, index: number) {
@@ -50,6 +55,7 @@ export class HomePage implements OnInit{
 
     // Mostrar el contenedor animado
     this.isAnimating = true;
+    
 
     // Configurar la posición inicial de la imagen animada
     const animatedAvatarElement = this.animatedAvatar.nativeElement as HTMLElement;
@@ -74,6 +80,11 @@ export class HomePage implements OnInit{
 
     // Resetear la animación después de completarla
     //this.isAnimating = false;
+  }
+
+  onIonInfinite(ev:InfiniteScrollCustomEvent) {
+    this.getMorePeople(ev.target);
+    
   }
 
 }
