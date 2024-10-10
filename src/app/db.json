@@ -1,0 +1,122 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Faith",
+        "last": "Newman"
+      },
+      "location": {
+        "street": {
+          "number": 3750,
+          "name": "Galway Road"
+        },
+        "city": "Killarney",
+        "state": "Cork",
+        "country": "Ireland",
+        "postcode": 39581,
+        "coordinates": {
+          "latitude": "-2.7308",
+          "longitude": "52.7854"
+        },
+        "timezone": {
+          "offset": "+9:00",
+          "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+        }
+      },
+      "email": "faith.newman@example.com",
+      "login": {
+        "uuid": "6afd5271-56a9-4db8-bb9b-7251c5e5d0fa",
+        "username": "sadkoala221",
+        "password": "manolo",
+        "salt": "BOL2UICS",
+        "md5": "52c61a9f53dd13137145497190f4c836",
+        "sha1": "d22ffe9ee359a129a6903b96066cf85bc81ac6d3",
+        "sha256": "d88c90850299fed33c99092f5a260f077740651a685ee82bd720d75587431d67"
+      },
+      "dob": {
+        "date": "1963-06-17T17:58:23.056Z",
+        "age": 61
+      },
+      "registered": {
+        "date": "2003-12-24T07:37:25.338Z",
+        "age": 20
+      },
+      "phone": "031-838-0969",
+      "cell": "081-986-2334",
+      "customId": {
+        "name": "PPS",
+        "value": "7689348T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/73.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/73.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/73.jpg"
+      },
+      "nat": "IE"
+    },
+    {
+      "id": "2",
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Domenique",
+        "last": "Wittebrood"
+      },
+      "location": {
+        "street": {
+          "number": 9988,
+          "name": "Grote Appelstraat"
+        },
+        "city": "Oisterwijk",
+        "state": "Gelderland",
+        "country": "Netherlands",
+        "postcode": "9182 OE",
+        "coordinates": {
+          "latitude": "72.3442",
+          "longitude": "162.9009"
+        },
+        "timezone": {
+          "offset": "+7:00",
+          "description": "Bangkok, Hanoi, Jakarta"
+        }
+      },
+      "email": "domenique.wittebrood@example.com",
+      "login": {
+        "uuid": "eb4557b9-df57-4dbc-bf7c-faa48cab647e",
+        "username": "lazyfrog722",
+        "password": "christine",
+        "salt": "VPSzpC6r",
+        "md5": "5c341afbb72e8253f619b9a3ed0b0b24",
+        "sha1": "82dc42c2b682264a6335dc028077fc9f7714db14",
+        "sha256": "807aab55849ada4d2b8c003f01f59bbb76410d32343e52ce380a5f1fd212b2bb"
+      },
+      "dob": {
+        "date": "1994-07-07T11:05:12.994Z",
+        "age": 30
+      },
+      "registered": {
+        "date": "2019-01-17T01:19:46.416Z",
+        "age": 5
+      },
+      "phone": "(0162) 352512",
+      "cell": "(06) 00150815",
+      "customId": {
+        "name": "BSN",
+        "value": "13265408"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/85.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/85.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/85.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "id": "3",
+      "email": "boris@gmail.com"
+    }
+  ]
+}
