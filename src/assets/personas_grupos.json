@@ -1,0 +1,426 @@
+{
+    "personas": [
+        {
+            "id": "c2a89d5e-7a6b-4b28-911c-b8d52d936bcc",
+            "nombre": "Miguel",
+            "apellidos": "Perez Moreno",
+            "email": "user1@example.com",
+            "genero": "masculino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "25945e29-ae21-4961-8745-3e68070fa9ea",
+            "nombre": "Sofia",
+            "apellidos": "Perez Moreno",
+            "email": "user2@example.com",
+            "genero": "masculino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "a34480ed-b13e-45f7-bfff-c80f0583d23a",
+            "nombre": "Sofia",
+            "apellidos": "Martinez Sanchez",
+            "email": "user3@example.com",
+            "genero": "femenino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "2262b56f-efe7-419b-91c8-b72858d5ee0a",
+            "nombre": "Luis",
+            "apellidos": "Gomez Jimenez",
+            "email": "user4@example.com",
+            "genero": "femenino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "e48f4994-ab23-4a2e-b4ce-e5de62c60bcb",
+            "nombre": "Luis",
+            "apellidos": "Ruiz Martinez",
+            "email": "user5@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "322bde44-d742-4742-9244-652ed2f27740",
+            "nombre": "Sofia",
+            "apellidos": "Martinez Sanchez",
+            "email": "user6@example.com",
+            "genero": "masculino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "0e3c34c3-b6d6-4111-b218-e7cc5b031bf1",
+            "nombre": "Jorge",
+            "apellidos": "Jimenez Diaz",
+            "email": "user7@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "05dd10bc-6f91-4aa6-a492-fb47ee971ecb",
+            "nombre": "Maria",
+            "apellidos": "Martinez Martinez",
+            "email": "user8@example.com",
+            "genero": "femenino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "8a126573-a6ab-46c9-bc23-0fe600003c60",
+            "nombre": "Luis",
+            "apellidos": "Moreno Gomez",
+            "email": "user9@example.com",
+            "genero": "masculino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "ae243094-746e-4f57-bece-bbfe9665bba5",
+            "nombre": "Lucia",
+            "apellidos": "Martinez Gomez",
+            "email": "user10@example.com",
+            "genero": "femenino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "cd56d0ae-1014-4a91-a089-20cbf136bf2e",
+            "nombre": "Jorge",
+            "apellidos": "Jimenez Sanchez",
+            "email": "user11@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "6add5701-9da4-4a5c-807f-3a96ba7b104b",
+            "nombre": "Sofia",
+            "apellidos": "Garcia Perez",
+            "email": "user12@example.com",
+            "genero": "femenino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "004fe7a1-3cef-4fa1-bee4-6e8e56462b2a",
+            "nombre": "Elena",
+            "apellidos": "Diaz Garcia",
+            "email": "user13@example.com",
+            "genero": "masculino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "ce265da8-2618-43e5-ad86-a4ca4c201897",
+            "nombre": "Jorge",
+            "apellidos": "Moreno Perez",
+            "email": "user14@example.com",
+            "genero": "masculino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "9795c64f-6bed-40be-9f1b-6b46942e7c25",
+            "nombre": "Jorge",
+            "apellidos": "Moreno Sanchez",
+            "email": "user15@example.com",
+            "genero": "femenino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "b1fad8a4-3774-434b-998e-24824ed26601",
+            "nombre": "Lucia",
+            "apellidos": "Rodriguez Moreno",
+            "email": "user16@example.com",
+            "genero": "masculino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "c967684d-2c07-48f7-b7c7-38be802836f3",
+            "nombre": "Maria",
+            "apellidos": "Perez Rodriguez",
+            "email": "user17@example.com",
+            "genero": "masculino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "9eea37d6-5ad3-48c0-a3a3-3b2c3f926570",
+            "nombre": "Sofia",
+            "apellidos": "Jimenez Sanchez",
+            "email": "user18@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "06e96ce2-5f87-48d9-822d-3d99e3d464ae",
+            "nombre": "Miguel",
+            "apellidos": "Martinez Garcia",
+            "email": "user19@example.com",
+            "genero": "femenino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "e68bc8da-fa87-440b-9e7e-3ec9ffeec4f9",
+            "nombre": "Carlos",
+            "apellidos": "Garcia Sanchez",
+            "email": "user20@example.com",
+            "genero": "femenino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "fe48334e-8e85-4544-be3c-249446b1813e",
+            "nombre": "Carlos",
+            "apellidos": "Moreno Sanchez",
+            "email": "user21@example.com",
+            "genero": "femenino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "0d614014-5bc0-44d1-b1bc-62202ebafac1",
+            "nombre": "Lucia",
+            "apellidos": "Ruiz Moreno",
+            "email": "user22@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "cd07b49c-db63-4a57-bb41-6a978eea0b5c",
+            "nombre": "Jorge",
+            "apellidos": "Martinez Ruiz",
+            "email": "user23@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "1a0aec6f-d799-4fe7-b963-b2c43d72426d",
+            "nombre": "Elena",
+            "apellidos": "Moreno Rodriguez",
+            "email": "user24@example.com",
+            "genero": "masculino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "547100fa-91c3-407b-8cb8-356baa0850d1",
+            "nombre": "Jorge",
+            "apellidos": "Sanchez Ruiz",
+            "email": "user25@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "f1228185-fb0d-43b5-afc2-51ebac08b373",
+            "nombre": "Jorge",
+            "apellidos": "Jimenez Moreno",
+            "email": "user26@example.com",
+            "genero": "masculino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "41805bf8-f51e-480d-9eb3-4911b6de74fa",
+            "nombre": "Jorge",
+            "apellidos": "Diaz Gomez",
+            "email": "user27@example.com",
+            "genero": "femenino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "9cba3aff-c4dd-465b-a13e-54d02c97a211",
+            "nombre": "Maria",
+            "apellidos": "Diaz Martinez",
+            "email": "user28@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "89b3c2c7-1cef-493d-bb70-4d903e60ac91",
+            "nombre": "Sofia",
+            "apellidos": "Ruiz Ruiz",
+            "email": "user29@example.com",
+            "genero": "femenino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "9c96592c-df02-480f-99d9-bd0b11f242f3",
+            "nombre": "Sofia",
+            "apellidos": "Diaz Ruiz",
+            "email": "user30@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "92759598-534d-49bb-b4ed-07a6d7107db0",
+            "nombre": "Luis",
+            "apellidos": "Garcia Jimenez",
+            "email": "user31@example.com",
+            "genero": "femenino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "d7bd621f-c912-4d12-bf84-cc968d4a1296",
+            "nombre": "Sofia",
+            "apellidos": "Jimenez Moreno",
+            "email": "user32@example.com",
+            "genero": "femenino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "c6a0e630-0cc6-4157-9590-1be28f3a9568",
+            "nombre": "Carlos",
+            "apellidos": "Moreno Sanchez",
+            "email": "user33@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "428427ce-0d13-4443-88e8-39cf4568511c",
+            "nombre": "Maria",
+            "apellidos": "Gomez Jimenez",
+            "email": "user34@example.com",
+            "genero": "femenino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "5b0d0c1e-1171-4cb8-b6a3-409076467d9c",
+            "nombre": "Maria",
+            "apellidos": "Ruiz Sanchez",
+            "email": "user35@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "a0bc57a0-d73b-4642-adbb-efb149bc0054",
+            "nombre": "Sofia",
+            "apellidos": "Ruiz Gomez",
+            "email": "user36@example.com",
+            "genero": "femenino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "47617dad-c86a-4933-be50-8671139b64f8",
+            "nombre": "Carlos",
+            "apellidos": "Rodriguez Gomez",
+            "email": "user37@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "bd35888a-7d5b-49ff-a9d0-e9f4eec6b729",
+            "nombre": "Sofia",
+            "apellidos": "Diaz Jimenez",
+            "email": "user38@example.com",
+            "genero": "femenino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "26f1a7f8-927e-42c2-80a2-b10ef2367a44",
+            "nombre": "Elena",
+            "apellidos": "Perez Gomez",
+            "email": "user39@example.com",
+            "genero": "masculino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "2d0da3c6-bca4-45ff-87ac-2ff5395a4e8c",
+            "nombre": "Maria",
+            "apellidos": "Ruiz Sanchez",
+            "email": "user40@example.com",
+            "genero": "masculino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "1e716a55-2564-46d1-b468-0adf6c46e345",
+            "nombre": "Juan",
+            "apellidos": "Diaz Jimenez",
+            "email": "user41@example.com",
+            "genero": "femenino",
+            "grupoId": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16"
+        },
+        {
+            "id": "2564976e-4981-4915-be47-39876d71ebc7",
+            "nombre": "Jorge",
+            "apellidos": "Moreno Ruiz",
+            "email": "user42@example.com",
+            "genero": "femenino",
+            "grupoId": "eae30923-7844-4f1a-9e8b-47a370a0df2e"
+        },
+        {
+            "id": "726969a1-5dc3-41a1-b534-b0936100af6a",
+            "nombre": "Lucia",
+            "apellidos": "Jimenez Perez",
+            "email": "user43@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "53cfb9b0-3e7b-44e0-bba7-97eb767901f9",
+            "nombre": "Lucia",
+            "apellidos": "Garcia Rodriguez",
+            "email": "user44@example.com",
+            "genero": "masculino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "8bd756e5-a11f-47a9-b94e-245486fe5c56",
+            "nombre": "Juan",
+            "apellidos": "Perez Moreno",
+            "email": "user45@example.com",
+            "genero": "masculino",
+            "grupoId": "9eeec390-6f5a-4427-98af-c767a95b6cb0"
+        },
+        {
+            "id": "a2d2b2a0-f39d-45e7-b505-13b707466057",
+            "nombre": "Lucia",
+            "apellidos": "Moreno Moreno",
+            "email": "user46@example.com",
+            "genero": "femenino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "025edbdc-d905-4823-9d7d-bd857a56ef75",
+            "nombre": "Luis",
+            "apellidos": "Martinez Sanchez",
+            "email": "user47@example.com",
+            "genero": "masculino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "8214c276-b8a0-4240-be31-d88e8512d7b2",
+            "nombre": "Miguel",
+            "apellidos": "Diaz Sanchez",
+            "email": "user48@example.com",
+            "genero": "masculino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        },
+        {
+            "id": "5fc33db5-99ed-4ce1-85b8-08e556accfed",
+            "nombre": "Jorge",
+            "apellidos": "Moreno Sanchez",
+            "email": "user49@example.com",
+            "genero": "masculino",
+            "grupoId": "3c020a73-1f60-42c9-ab91-b7b03479aefc"
+        },
+        {
+            "id": "fd95c793-1aa0-44e9-af56-1fdb0e228a06",
+            "nombre": "Juan",
+            "apellidos": "Diaz Gomez",
+            "email": "user50@example.com",
+            "genero": "femenino",
+            "grupoId": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f"
+        }
+    ],
+    "grupos": [
+        {
+            "id": "6d933bdd-b4ae-4aa2-a3e6-9923c943cb16",
+            "nombre": "Grupo 1"
+        },
+        {
+            "id": "eae30923-7844-4f1a-9e8b-47a370a0df2e",
+            "nombre": "Grupo 2"
+        },
+        {
+            "id": "9eeec390-6f5a-4427-98af-c767a95b6cb0",
+            "nombre": "Grupo 3"
+        },
+        {
+            "id": "3c020a73-1f60-42c9-ab91-b7b03479aefc",
+            "nombre": "Grupo 4"
+        },
+        {
+            "id": "d11a09c2-e30f-4739-a6e3-d625e5a0b65f",
+            "nombre": "Grupo 5"
+        }
+    ]
+}
