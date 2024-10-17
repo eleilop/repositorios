@@ -4,7 +4,7 @@ import { IBaseRepository } from './intefaces/base-repository.interface';
 import { ITasksRepository } from './intefaces/tasks-repository.interface';
 import { IPeopleRepository } from './intefaces/people-repository.interface';
 import { IBaseMapping } from './intefaces/base-mapping.interface';
-import { Person } from '../models/person.model';
+import { Person } from '../models/person/person.model';
 
 export const RESOURCE_NAME_TOKEN = new InjectionToken<string>('ResourceName');
 export const PEOPLE_RESOURCE_NAME_TOKEN = new InjectionToken<string>('PeopleResourceName');

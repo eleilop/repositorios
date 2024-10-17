@@ -1,26 +1,13 @@
 import { Injectable } from "@angular/core";
-import { IBaseMapping } from "../intefaces/base-mapping.interface";
-import { Paginated } from "../../models/paginated.model";
-import { Person } from "../../models/person.model";
-
-interface PersonRaw{
-    id:string,
-    name:{
-        title:string;
-        first:string;
-        last:string;
-    },
-    age:number,
-    picture:{
-        large:string
-        thumbnail:string
-    }
-}
+import { IBaseMapping } from "../../intefaces/base-mapping.interface";
+import { Paginated } from "../../../models/paginated/paginated.model";
+import { Person } from "../../../models/person/person.model";
+import { PersonRaw } from "../../../models/person/person.local.raw";
 
 @Injectable({
     providedIn: 'root'
-  })
-  export class PeopleLocalStorageMapping implements IBaseMapping<Person> {
+})
+export class PeopleLocalStorageMapping implements IBaseMapping<Person> {
     getPaginated(page:number, pageSize:number, pages:number, data: PersonRaw[]): Paginated<Person> {
         return {page:page, pageSize:pageSize, pages:pages, data:data.map<Person>((d:PersonRaw)=>{
             return this.getOne(d);
@@ -46,5 +33,4 @@ interface PersonRaw{
     getDeleted(data: PersonRaw):Person {
         return this.getOne(data);
     }
-  }
-  
+}

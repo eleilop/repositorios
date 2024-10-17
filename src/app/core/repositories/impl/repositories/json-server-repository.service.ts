@@ -2,22 +2,13 @@
 import { Inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
-import { IBaseRepository } from '../intefaces/base-repository.interface';
-import { API_URL_TOKEN, REPOSITORY_MAPPING_TOKEN, RESOURCE_NAME_TOKEN } from '../repository.tokens';
-import { Model } from '../../models/base.model';
-import { IBaseMapping } from '../intefaces/base-mapping.interface';
-import { Paginated } from '../../models/paginated.model';
+import { IBaseRepository } from '../../intefaces/base-repository.interface';
+import { API_URL_TOKEN, REPOSITORY_MAPPING_TOKEN, RESOURCE_NAME_TOKEN } from '../../repository.tokens';
+import { Model } from '../../../models/base.model';
+import { IBaseMapping } from '../../intefaces/base-mapping.interface';
+import { Paginated } from '../../../models/paginated/paginated.model';
 import { BaseRepositoryHttpService } from './base-repository-http.service';
-
-export interface PaginatedRaw<T> {
-  first: number,
-  prev: any,
-  next: number,
-  last: number,
-  pages: number,
-  items: number,
-  data: T[]
-}
+import { PaginatedRaw } from '../../../models/paginated/paginated.raw';
 
 @Injectable({
   providedIn: 'root'

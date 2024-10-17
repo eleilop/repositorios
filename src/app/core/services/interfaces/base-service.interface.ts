@@ -1,6 +1,6 @@
 // src/app/services/interfaces/base-service.interface.ts
 import { Observable } from 'rxjs';
-import { Paginated } from '../../models/paginated.model';
+import { Paginated } from '../../models/paginated/paginated.model';
 
 export interface IBaseService<T> {
   getAll(page:number, pageSize:number): Observable<Paginated<T>>;

@@ -11,8 +11,8 @@ import { PeopleRepositoryFactory } from './core/repositories/repository.factory'
 import { PeopleService } from './core/services/impl/people.service';
 import { PEOPLE_API_URL_TOKEN, PEOPLE_REPOSITORY_MAPPING_TOKEN, PEOPLE_RESOURCE_NAME_TOKEN } from './core/repositories/repository.tokens';
 import { provideHttpClient } from '@angular/common/http';
-import { PeopleMappingJsonServer } from './core/repositories/impl/people-mapping-json-server.service';
-import { PeopleLocalStorageMapping } from './core/repositories/impl/people-mapping-local-storage.service';
+import { PeopleMappingJsonServer } from './core/repositories/impl/maps/people-mapping-json-server.service';
+import { PeopleLocalStorageMapping } from './core/repositories/impl/maps/people-mapping-local-storage.service';
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],

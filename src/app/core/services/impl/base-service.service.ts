@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { IBaseService } from '../interfaces/base-service.interface';
 import { IBaseRepository } from '../../repositories/intefaces/base-repository.interface';
 import { Model } from '../../models/base.model';
-import { Paginated } from '../../models/paginated.model';
+import { Paginated } from '../../models/paginated/paginated.model';
 import { REPOSITORY_TOKEN } from '../../repositories/repository.tokens';
 
 @Injectable({
