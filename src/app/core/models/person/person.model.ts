@@ -1,4 +1,3 @@
-// src/app/core/person.model.ts
 import { Model } from "../base.model";
 
 export interface Person extends Model{
@@ -11,4 +10,5 @@ export interface Person extends Model{
         large:string,
         thumbnail:string
     }
+    groupId?:string
 }

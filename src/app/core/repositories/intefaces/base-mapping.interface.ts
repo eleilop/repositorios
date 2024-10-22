@@ -1,6 +1,4 @@
 // src/app/core/repositories/interfaces/base-repository.interface.ts
-import { Observable } from 'rxjs';
-import { Model } from '../../models/base.model';
 import { Paginated } from '../../models/paginated/paginated.model';
 
 export interface IBaseMapping<T> {

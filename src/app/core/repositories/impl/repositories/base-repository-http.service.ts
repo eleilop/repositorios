@@ -8,7 +8,6 @@ import { Model } from '../../../models/base.model';
 import { IBaseMapping } from '../../intefaces/base-mapping.interface';
 import { Paginated } from '../../../models/paginated/paginated.model';
 
-
 @Injectable({
   providedIn: 'root'
 })

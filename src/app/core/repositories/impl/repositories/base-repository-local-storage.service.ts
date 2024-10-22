@@ -7,12 +7,10 @@ import { REPOSITORY_MAPPING_TOKEN, RESOURCE_NAME_TOKEN } from '../../repository.
 import { IBaseMapping } from '../../intefaces/base-mapping.interface';
 import { Paginated } from '../../../models/paginated/paginated.model';
 
-
 @Injectable({
   providedIn: 'root'
 })
 export class BaseRespositoryLocalStorageService<T extends Model> implements IBaseRepository<T> {
-
   _items:T[] = [];
   private newID():string{
     const validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -27,7 +25,6 @@ export class BaseRespositoryLocalStorageService<T extends Model> implements IBas
   constructor(
     @Inject(RESOURCE_NAME_TOKEN) protected resource:string, //nombre del recurso del repositorio
     @Inject(REPOSITORY_MAPPING_TOKEN) protected mapping:IBaseMapping<T>
-  
   ) {
     let mockupList:any[] = [];
     for(let i = 0; i<100;i++){

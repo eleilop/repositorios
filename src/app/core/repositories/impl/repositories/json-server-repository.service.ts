@@ -14,7 +14,6 @@ import { PaginatedRaw } from '../../../models/paginated/paginated.raw';
   providedIn: 'root'
 })
 export class JsonServerRepositoryService<T extends Model> extends BaseRepositoryHttpService<T> {
-
   constructor(
     http: HttpClient,
     @Inject(API_URL_TOKEN) override apiUrl: string, // URL base de la API para el modelo

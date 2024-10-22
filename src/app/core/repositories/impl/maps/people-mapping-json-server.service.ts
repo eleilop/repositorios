@@ -18,11 +18,10 @@ export class PeopleMappingJsonServer implements IBaseMapping<Person> {
             id:data.id, 
             name:data.nombre,
             surname:data.apellidos, 
-            age:(data as any)["age"]??0,
-            picture:(data as any)["picture"]?{
-                large:(data as any)["picture"].large,
-                thumbnail:(data as any)["picture"].thumbnail
-            }:undefined};
+            email:(data as any)["email"]??"",
+            gender:(data as any)["genero"]??"",
+            groupId:(data as any)["grupoId"]??"",
+        }
     }
     getAdded(data: any):Person {
         throw new Error("Method not implemented.");
