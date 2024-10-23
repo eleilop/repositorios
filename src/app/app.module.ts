@@ -12,10 +12,12 @@ import { provideHttpClient } from '@angular/common/http';
 import { PeopleMappingJsonServer } from './core/repositories/impl/maps/people-mapping-json-server.service';
 import { GroupsMappingJsonServer } from './core/repositories/impl/maps/groups-mapping-json-server.service';
 import { GroupsService } from './core/services/impl/groups.service';
+import { PersonModalComponent } from './components/person-modal/person-modal.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  declarations: [AppComponent, PersonModalComponent],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, ReactiveFormsModule],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideHttpClient(),

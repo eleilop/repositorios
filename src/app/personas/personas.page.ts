@@ -1,9 +1,10 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 import { PeopleService } from '../core/services/impl/people.service';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { AnimationController, InfiniteScrollCustomEvent } from '@ionic/angular';
+import { AnimationController, InfiniteScrollCustomEvent, ModalController } from '@ionic/angular';
 import { Paginated } from '../core/models/paginated/paginated.model';
 import { Person } from '../core/models/person/person.model';
+import { PersonModalComponent } from '../components/person-modal/person-modal.component';
 
 @Component({
   selector: 'app-personas',
@@ -15,7 +16,8 @@ export class PersonasPage implements OnInit{
   people$:Observable<Person[]> = this._people.asObservable();
 
   constructor(
-    private peopleSv:PeopleService
+    private peopleSv:PeopleService,
+    private modalCtrl:ModalController
   ) {}
 
   ngOnInit(): void {
@@ -37,5 +39,16 @@ export class PersonasPage implements OnInit{
 
   onIonInfinite(ev:InfiniteScrollCustomEvent) {
     this.getMorePeople(ev.target);
+  }
+
+  async onAddPerson() {
+    const modal = await this.modalCtrl.create({
+      component: PersonModalComponent,
+      componentProps:{}
+    })
+    modal.onDidDismiss().then((res:any)=>
+      console.log(res)
+    )
+    await modal.present()
   }
 }
